@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/ckyeon/git/PI/zgdle-PI.xcodeproj">
    </FileRef>
 </Workspace>

@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB66F1A22AA4F3280055B672 /* PI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB66F1A22AA4F3280055B672 /* zgdle-PI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zgdle-PI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB66F1A52AA4F3280055B672 /* PIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIApp.swift; sourceTree = "<group>"; };
 		DB66F1A72AA4F3280055B672 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB66F1A92AA4F3290055B672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		DB66F1992AA4F3280055B672 = {
 			isa = PBXGroup;
 			children = (
-				DB66F1A42AA4F3280055B672 /* PI */,
+				DB66F1A42AA4F3280055B672 /* zgdle-PI */,
 				DB66F1A32AA4F3280055B672 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		DB66F1A32AA4F3280055B672 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB66F1A22AA4F3280055B672 /* PI.app */,
+				DB66F1A22AA4F3280055B672 /* zgdle-PI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB66F1A42AA4F3280055B672 /* PI */ = {
+		DB66F1A42AA4F3280055B672 /* zgdle-PI */ = {
 			isa = PBXGroup;
 			children = (
 				DB66F1A52AA4F3280055B672 /* PIApp.swift */,
@@ -56,7 +56,7 @@
 				DB66F1A92AA4F3290055B672 /* Assets.xcassets */,
 				DB66F1AB2AA4F3290055B672 /* Preview Content */,
 			);
-			path = PI;
+			path = "zgdle-PI";
 			sourceTree = "<group>";
 		};
 		DB66F1AB2AA4F3290055B672 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB66F1A12AA4F3280055B672 /* PI */ = {
+		DB66F1A12AA4F3280055B672 /* zgdle-PI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB66F1B02AA4F3290055B672 /* Build configuration list for PBXNativeTarget "PI" */;
+			buildConfigurationList = DB66F1B02AA4F3290055B672 /* Build configuration list for PBXNativeTarget "zgdle-PI" */;
 			buildPhases = (
 				DB66F19E2AA4F3280055B672 /* Sources */,
 				DB66F19F2AA4F3280055B672 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = PI;
+			name = "zgdle-PI";
 			productName = PI;
-			productReference = DB66F1A22AA4F3280055B672 /* PI.app */;
+			productReference = DB66F1A22AA4F3280055B672 /* zgdle-PI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB66F19D2AA4F3280055B672 /* Build configuration list for PBXProject "PI" */;
+			buildConfigurationList = DB66F19D2AA4F3280055B672 /* Build configuration list for PBXProject "zgdle-PI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB66F1A12AA4F3280055B672 /* PI */,
+				DB66F1A12AA4F3280055B672 /* zgdle-PI */,
 			);
 		};
 /* End PBXProject section */
@@ -266,10 +266,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"zgdle-PI/Preview Content\"";
 				DEVELOPMENT_TEAM = YZCVM66B66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,10 +297,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"zgdle-PI/Preview Content\"";
 				DEVELOPMENT_TEAM = YZCVM66B66;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB66F19D2AA4F3280055B672 /* Build configuration list for PBXProject "PI" */ = {
+		DB66F19D2AA4F3280055B672 /* Build configuration list for PBXProject "zgdle-PI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB66F1AE2AA4F3290055B672 /* Debug */,
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB66F1B02AA4F3290055B672 /* Build configuration list for PBXNativeTarget "PI" */ = {
+		DB66F1B02AA4F3290055B672 /* Build configuration list for PBXNativeTarget "zgdle-PI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB66F1B12AA4F3290055B672 /* Debug */,
